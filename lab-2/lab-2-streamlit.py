@@ -156,7 +156,7 @@ elif section == "Comparison":
     st.write("Let's see which activation function works best!")
     
     try:
-        data = pd.read_csv('data/heart.csv')
+        data = pd.read_csv('heart.csv')
         
         categorical_columns = ['Sex', 'ChestPainType', 'RestingECG', 'ExerciseAngina', 'ST_Slope']
         
