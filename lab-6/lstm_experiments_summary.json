@@ -1,0 +1,314 @@
+{
+  "sequence_lengths": [
+    3,
+    5,
+    8
+  ],
+  "lstm_configs": [
+    [
+      128
+    ],
+    [
+      128,
+      128
+    ],
+    [
+      256,
+      128
+    ]
+  ],
+  "dropout_rates": [
+    0.1,
+    0.3
+  ],
+  "results_summary": [
+    {
+      "config": "ctx3_L128_do0.1",
+      "last_loss": 6.336366176605225,
+      "samples": {
+        "temp0.6": [
+          "the moon s a likeness i ve seen the human eyes i am i say not do you have been done you",
+          "i remember up as the snail has been the fool you are on the sun and the dark the ones grow as",
+          "in the morning what makes me see me for you to make the sky she s just to write the world of common"
+        ],
+        "temp0.9": [
+          "the moon when in a rage he laughed as o er why when i don t love thinking for his brothers noise",
+          "i remember the world knows the spring and i face your fathers aspect of the dark fingers through the row of a",
+          "in the morning i piece part refuse to your armpits and sandy nak and the pocks which can think you make one the"
+        ]
+      }
+    },
+    {
+      "config": "ctx3_L128_do0.3",
+      "last_loss": 6.468911170959473,
+      "samples": {
+        "temp0.6": [
+          "the moon s paper and the then that is it just the late of her own and i love the world on",
+          "i remember you can t have not been we have just been in a arm of the sky i ll never get",
+          "in the morning i am a story of a end of the world who is a string of a goat was a man"
+        ],
+        "temp0.9": [
+          "the moon to heap their glass both as the hills where which are goodbye once it were brown in a shelf i",
+          "i remember how my love i have just in africa and your further fog bring through the moon of the wind above",
+          "in the morning because the sea are miss the hillside how made equally the corpse society out the pitch of her hand who"
+        ]
+      }
+    },
+    {
+      "config": "ctx3_L128-128_do0.1",
+      "last_loss": 6.356322765350342,
+      "samples": {
+        "temp0.6": [
+          "the moon was a woman or sisters now or the surface of the house i was in the dust of the street",
+          "i remember it is a most man a poet is a third and a woman s mind i know to make her",
+          "in the morning a place of the same way and the lashes all i am not a way at college she ll never"
+        ],
+        "temp0.9": [
+          "the moon eventually that picks him into the dog claim in melting books suddenly a long slop in on air kept like",
+          "i remember a friend and as i am sure i have like one times are freed with lovers the concealing monarchs as",
+          "in the morning on the neon day of sound drill i feel you though me could never make her heart the year s"
+        ]
+      }
+    },
+    {
+      "config": "ctx3_L128-128_do0.3",
+      "last_loss": 6.478107929229736,
+      "samples": {
+        "temp0.6": [
+          "the moon of a man and like the afternoon below a series of course now i m no way to go to",
+          "i remember the city and the year is a good man s man i won t know but if but i ve",
+          "in the morning a sun that s blue of the gold we know you were a day in the body he was going"
+        ],
+        "temp0.9": [
+          "the moon of our country plastic breasts door my beauty never knew but thou cleared to pull thee out as the tortoise",
+          "i remember remember where are caught i m to go to him twenty of the granite i ve not save the mountains",
+          "in the morning s throats or all maybe i can not build us don t keep us you ll be that is a"
+        ]
+      }
+    },
+    {
+      "config": "ctx3_L256-128_do0.1",
+      "last_loss": 6.311700820922852,
+      "samples": {
+        "temp0.6": [
+          "the moon in the time a man could not have the very storm of my clothes and i am the man s",
+          "i remember the pleasure of a judgment to my own hand and to the path of a trance of way to our",
+          "in the morning i said the name and the world s a young man i would never be a man of light all"
+        ],
+        "temp0.9": [
+          "the moon watching the world with gobshites on pink spar to sound as bulges for diamantine american lady i am not as",
+          "i remember the dead s silver cruz beak up a splintered three wings might not be ya he are with the bay",
+          "in the morning the city of dew is one as i know but a dirt to the inhabitants of what it begins to"
+        ]
+      }
+    },
+    {
+      "config": "ctx3_L256-128_do0.3",
+      "last_loss": 6.463283538818359,
+      "samples": {
+        "temp0.6": [
+          "the moon were no real to be the ones you should be not the place of the world s longer could have",
+          "i remember me i know to be on the city a poet s head and children s two two people are on",
+          "in the morning s silence the world do not live to watch the grass a coal of the broad town of his face"
+        ],
+        "temp0.9": [
+          "the moon s matter this was time i am able for it will show to it a rest the force rig off",
+          "i remember you with my heart put among the blood of this monster in the new while you tumble off achilles first",
+          "in the morning s in the to credit his hands have been in abraham the plain of status the einstein is very slippery"
+        ]
+      }
+    },
+    {
+      "config": "ctx5_L128_do0.1",
+      "last_loss": 6.2957048416137695,
+      "samples": {
+        "temp0.6": [
+          "the moon s hoods of the sun s sake when he was cold i am the world that is a man and",
+          "i remember the long to sit in the world we aren t know to be i would not see the sun and",
+          "in the morning and the ripple and the universal stairs and the town of stunningly as our own self and i stand in"
+        ],
+        "temp0.9": [
+          "the moon with salt he austere me in last and last the great virgin in the closet of tokyo 2 an animal",
+          "i remember you died i asked me where i must had not only be mistake behind life where she looked into the",
+          "in the morning we lay earth and here that i am works no longer come for the cradle of my idea to 1979"
+        ]
+      }
+    },
+    {
+      "config": "ctx5_L128_do0.3",
+      "last_loss": 6.442036151885986,
+      "samples": {
+        "temp0.6": [
+          "the moon river and i am a fuller a way to know they will not be there that is a few of",
+          "i remember not the blaze of the sun in my head there is a mirror and a friend and a poet in",
+          "in the morning i was a man in the world s a woman s mother and a little box the dog that is"
+        ],
+        "temp0.9": [
+          "the moon swirled at the stems like electric pack and salads for the lovelies reforma here in the fan seeker did care",
+          "i remember all were works and came in the heights over bird or iron rug and pleas d d from among the",
+          "in the morning rang live and part of there it s beauty s pain was a gold steed for the old vines its"
+        ]
+      }
+    },
+    {
+      "config": "ctx5_L128-128_do0.1",
+      "last_loss": 6.410576343536377,
+      "samples": {
+        "temp0.6": [
+          "the moon that watch the sea and the cloud of the river i remembered my love i am like a torch and",
+          "i remember a man of the end of the water s in the sun of your head as the people is not",
+          "in the morning a sun and a old way to the people and the sweet one s net in the world s dress"
+        ],
+        "temp0.9": [
+          "the moon s braided blood here is the teeth wounded so a bells of over the whole process of my broken word",
+          "i remember therein enticed me from the sticking up the road arrived round these hungry eyes in sleep and oh you see",
+          "in the morning s shell his life s kitchen stopped as the creeks each old place of which s you find his chance"
+        ]
+      }
+    },
+    {
+      "config": "ctx5_L128-128_do0.3",
+      "last_loss": 6.538691997528076,
+      "samples": {
+        "temp0.6": [
+          "the moon in the ships the mid quote a dance of the dark space of the world that did you have a",
+          "i remember the other plain and when the dark road that you were worth it with the world on the right city",
+          "in the morning and a body is the year of my sleep i d d know me this is a poet as with"
+        ],
+        "temp0.9": [
+          "the moon name called him or a man is much although i feel pulsed puts them off from the world the summer",
+          "i remember and whatever look when i think because you left you to your backs and art it did you emerge twas",
+          "in the morning s first and no first look to the patience cancer and the dark or which planted a department could see"
+        ]
+      }
+    },
+    {
+      "config": "ctx5_L256-128_do0.1",
+      "last_loss": 6.314090728759766,
+      "samples": {
+        "temp0.6": [
+          "the moon s no thing of the king of the weight of the same world s judgment which was what the same",
+          "i remember the only story of a sentence but i will tell and i was to say in the sky and the",
+          "in the morning i will live in the ground the poet was fifty four and the woman is in the yellow harvest of"
+        ],
+        "temp0.9": [
+          "the moon s our hands now how is an memorial that is the farthest feel and we were wonderingwhere and that the",
+          "i remember in my own death not drop me by the indian council are the milkwhite seawater town in day our fact",
+          "in the morning he will break the wire in the spray cliff all at a provenanceof lit but if you rowed and that"
+        ]
+      }
+    },
+    {
+      "config": "ctx5_L256-128_do0.3",
+      "last_loss": 6.458796501159668,
+      "samples": {
+        "temp0.6": [
+          "the moon between the morning and the same is a role of the dead i was a man of love and the",
+          "i remember the way to you otherwise speak about me we are a way that she was so there s as a",
+          "in the morning s eye in a nurses in a way above the door and yet the new certain day is a series"
+        ],
+        "temp0.9": [
+          "the moon train as will i dare you take but you could try worlds yourself and any day or even all what",
+          "i remember the skies hath fruit as the song they both held me the rank on night like an dara supporters into",
+          "in the morning a few key to which my heart has lost in the beer he wear my eyes back in an testament"
+        ]
+      }
+    },
+    {
+      "config": "ctx8_L128_do0.1",
+      "last_loss": 6.2684645652771,
+      "samples": {
+        "temp0.6": [
+          "the moon and all the cloud of the cold with the end the fire of the the sky and the one and",
+          "i remember the man s need to be there is it s its heart she was a small man in a kind",
+          "in the morning and the wind and the sun who were the boy said she was to say the more than the world"
+        ],
+        "temp0.9": [
+          "the moon box now and the bird comes or i would be not with waiting about you but on the night think",
+          "i remember this sound comes from the ox of silence alone s rooms praise the conversation great earth s sparrows come to",
+          "in the morning in the masses the word we knew how would save the amorous school and human are that write nor they"
+        ]
+      }
+    },
+    {
+      "config": "ctx8_L128_do0.3",
+      "last_loss": 6.4273152351379395,
+      "samples": {
+        "temp0.6": [
+          "the moon there s a low garden s and a man s more than a kind of a search of the glass",
+          "i remember the old town i didn t know it s the way to you you sit on the streets of your",
+          "in the morning the air and asked the froward sang the trees s shadow a second rate of the the people come to"
+        ],
+        "temp0.9": [
+          "the moon clenching me to talk except there s un seconds i m signed the land but to love you is a",
+          "i remember and my sluices will know because i dare not like good the rights of mark me you think that nothing",
+          "in the morning and hovers on the drawer he people am never thinking to all our case but it is mine to my"
+        ]
+      }
+    },
+    {
+      "config": "ctx8_L128-128_do0.1",
+      "last_loss": 6.426743984222412,
+      "samples": {
+        "temp0.6": [
+          "the moon s o only a years of the word i want to send a other things for a way to turn",
+          "i remember an gates of the heaven of the dark and the morning s face of the life i need to be",
+          "in the morning a rafters that the man was a imagination to the mind that i will come the sun in the road"
+        ],
+        "temp0.9": [
+          "the moon s graders the black child a great heron finally happened d in human friends and the maker burning beneath the",
+          "i remember the heavy tooth i think was the good time of the sky when are taught well is miraculous after you",
+          "in the morning air s arms of the even horses the changes still i say and his mother s lives maybe he is"
+        ]
+      }
+    },
+    {
+      "config": "ctx8_L128-128_do0.3",
+      "last_loss": 6.547217845916748,
+      "samples": {
+        "temp0.6": [
+          "the moon over the cold blue skin of the floor to take an top of the wood of the mat s golf",
+          "i remember the mind for the streets and be when the great child were more in the sky that is a poet",
+          "in the morning the moose dark itself in the ground a word that is to be th boy i d be a symbol"
+        ],
+        "temp0.9": [
+          "the moon starts to windows the constellation of his french merry message a bush that autumn currency from their name with a",
+          "i remember the muscle thick no bent the grown answering below that is a dear mother my back and the morning so",
+          "in the morning s semi drunks of her with a memory of the waves words in steel as vulnerable light the fragrance of"
+        ]
+      }
+    },
+    {
+      "config": "ctx8_L256-128_do0.1",
+      "last_loss": 6.474152088165283,
+      "samples": {
+        "temp0.6": [
+          "the moon the night and the water that s not seen a poor hand on the things to the children my face",
+          "i remember the man s own divide a day but there is one you didn t be been spoke to the children",
+          "in the morning while the world of my hand thou part of us and this s little name and the sky of a"
+        ],
+        "temp0.9": [
+          "the moon either sound i made us deploy the middle of her mouth of wait to help more after they short too",
+          "i remember that staid she sounded like a bottom by winter of a nightmare s deep meditation are taking in us your",
+          "in the morning and high hands unusually streets 4 made then every boy whose sweet way she include this ball for a woman"
+        ]
+      }
+    },
+    {
+      "config": "ctx8_L256-128_do0.3",
+      "last_loss": 6.508270740509033,
+      "samples": {
+        "temp0.6": [
+          "the moon all train and a embarked if i am waiting to be a girl to the day you are left to",
+          "i remember the mirror of my love in the light in the world and the lives of the dark the valley of",
+          "in the morning sea who shall be did me the parts of a victim when i can not speak to a thing for"
+        ],
+        "temp0.9": [
+          "the moon chase rising in me pulled the deck of som juice tossed of and i dream or no more enough for",
+          "i remember rest with trains to the chance and the plaster voltage to the piers and not new man the soul are",
+          "in the morning o food and ago the voice the room of my snare between my boneless head and try of dusk and"
+        ]
+      }
+    }
+  ]
+}
